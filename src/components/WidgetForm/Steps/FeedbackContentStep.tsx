@@ -23,8 +23,6 @@ export function FeedbackContentStep({
   const handleSubmitFeedback = (event: FormEvent) => {
     event.preventDefault()
 
-    console.log(comment)
-
     onFeedbackSent()
   }
 
