@@ -2,7 +2,7 @@
 
 a frontend feedback widget sending the feedback messages to a backend env and storing into a db
 
-## using:
+## front-end
 
 - typescript
 - react
@@ -10,3 +10,12 @@ a frontend feedback widget sending the feedback messages to a backend env and st
 - phosphor-react
 - headless ui
 - tailwindcss
+- html2canvas
+
+## back-end
+
+- nodejs
+- typescript
+- solid
+- prisma
+- jest
