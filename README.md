@@ -18,9 +18,22 @@ a frontend feedback widget sending the feedback messages to a backend env and st
 - typescript
 - express
 - prisma
-- jest
-- solid
-- sqlite
-- postgres
 - nodemailer
+
+## principles
+
+- SOLID
+
+## third-party
+
 - mailtrap
+
+## db
+
+- sqlite (development)
+- postgres (production)
+
+## tests
+
+- jest
+- swc
