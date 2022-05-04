@@ -20,3 +20,5 @@ a frontend feedback widget sending the feedback messages to a backend env and st
 - prisma
 - jest
 - solid
+- sqlite
+- postgres
