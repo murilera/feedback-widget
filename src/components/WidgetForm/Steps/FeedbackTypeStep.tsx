@@ -19,7 +19,7 @@ export function FeedbackTypeStep({
           return (
             <button
               key={key}
-              className='bg-brown-900 rounded-lg py-5 w-24 flex-1 flex-col items-center gap-2 border-2 border-transparent hover:border-brown-500 focus:border-brown-500 focus:outline-none'
+              className='bg-brown-900 rounded-lg py-5 w-24 flex flex-col items-center gap-2 border-2 border-transparent hover:border-brown-500 focus:border-brown-500 focus:outline-none'
               onClick={() => onFeedbackTypeChanged(key as FeedbackType)}
               type='button'
             >

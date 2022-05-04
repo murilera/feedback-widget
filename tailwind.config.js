@@ -17,9 +17,12 @@ module.exports = {
           700: '#977669',
           800: '#846358',
           900: '#43302b'
+        },
+        borderRadius: {
+          md: '4px'
         }
       }
     },
-    plugins: []
+    plugins: [require('@tailwindcss/forms'), require('tailwind-scrollbar')]
   }
 }
