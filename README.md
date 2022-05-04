@@ -16,6 +16,7 @@ a frontend feedback widget sending the feedback messages to a backend env and st
 
 - nodejs
 - typescript
-- solid
+- express
 - prisma
 - jest
+- solid
