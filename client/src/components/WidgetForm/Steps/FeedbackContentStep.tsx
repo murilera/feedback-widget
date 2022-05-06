@@ -17,7 +17,7 @@ export function FeedbackContentStep({
   onFeedbackRestartRequested,
   onFeedbackSent
 }: FeedbackContentStepProps) {
-  const [screenshot, setScreenshot] = useState(null)
+  const [screenshot, setScreenshot] = useState<string | null>(null)
   const [comment, setComment] = useState('')
   const [isSendingFeedback, setIsSedingFeedback] = useState(false)
 
@@ -71,8 +71,8 @@ export function FeedbackContentStep({
 
         <footer className='flex gap-2 mt-2'>
           <ScreenshotButton
-            onScreenshotTook={setScreenshot}
             screenshot={screenshot}
+            onScreenshotTook={setScreenshot}
           />
 
           <button
